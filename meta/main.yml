@@ -1,0 +1,24 @@
+galaxy_info:
+  role_name: apache
+  description: Install apache and configure virtualhost 
+  author: Allan Roque
+  company: aroque
+
+  license: license (BSD, MIT)
+
+  min_ansible_version: 2.8
+
+  platforms:
+  - name: EL
+    versions:
+    - 8
+    - 7
+
+  galaxy_tags:
+    - web
+    - apache
+    - webserver
+    - html
+    - httpd
+
+dependencies: []
